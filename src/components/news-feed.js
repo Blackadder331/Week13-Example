@@ -6,7 +6,7 @@ let e = React.createContext;
 export default class NewsFeed extends React.Component {
     render() {
         return e('div',
-        {clas: 'container'},
+        {class: 'container'},
         e(Post, {}, null),
         e(Post, {}, null),
         e(Post, {}, null)       
