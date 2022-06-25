@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  background-color: #212529;
+}
+
+/* * {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+} */
+
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
+a {
+  color: #198754 !important;
+  padding-left: 30px !important;
+}
+
+a:hover {
+  color: #11482e !important;
+}
+
+.my-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+html {
+  height: 10vh;
+}
+
+ul {
+  flex-direction: row !important;
+}
+
+h3 {
+  align-self: flex-start !important;
+}

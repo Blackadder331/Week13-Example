@@ -4,11 +4,17 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NewsFeed from './components/news-feed';
+// import NewsFeed from './components/news-feed';
+// import Navbar from './components/navbar';
+import Container from './components/container';
+// import Navlinks from "./Navlinks";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <NewsFeed /> 
+  <React.StrictMode>
+    <Container />
+  </React.StrictMode>
 );
 
 
